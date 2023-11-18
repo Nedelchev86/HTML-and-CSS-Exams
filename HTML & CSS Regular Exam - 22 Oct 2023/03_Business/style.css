@@ -63,13 +63,13 @@ nav ul {
 .wrapper {
     max-width: 1420px;
     margin: 0 auto;
-    padding-top: 60px;
 }
 
 .header-big {
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     font-family: "PT Serif", serif;
+    line-height: 1.3;
 }
 
 .header-text {
@@ -79,7 +79,7 @@ nav ul {
 }
 
 .header-info {
-    max-width: 42%;
+    max-width: 50%;
 }
 
 .decription {
@@ -98,7 +98,7 @@ nav ul {
 .info {
     letter-spacing: 0.1mm;
     font-size: 18px;
-    color: #37282B;
+    color: #37282b;
 }
 
 .button {
@@ -113,9 +113,88 @@ nav ul {
 
 .grey-line {
     border: 1px solid #cccccc;
-    margin-top: 170px;
+    margin-top: 120px;
 }
 
 .sponsor {
     color: #b0825c;
+}
+
+.sponsors {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 80px;
+}
+
+.info-sponsors {
+    text-align: center;
+}
+
+.images {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+}
+
+.circle {
+    display: block;
+    max-width: 250px;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-color: #dddddd;
+    border-radius: 50%;
+    padding: 40px;
+    overflow: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+.circle:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: #171720;
+}
+
+.footer-wrap {
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-between;
+}
+
+.footer-links ul {
+    all: unset;
+}
+
+.footer-links ul li a {
+    all: unset;
+    color: #b3a6a8;
+    text-transform: uppercase;
+    line-height: 2.5;
+}
+
+.footer-links ul li a:hover {
+    cursor: pointer;
+}
+
+.footer-title {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.footer-line {
+    margin-top: 80px;
+    border: 1px solid #3a3a41;
+}
+
+.footer-text {
+    color: #b3a6a8;
+    padding-block: 20px;
+}
+
+a:hover {
+    cursor: pointer;
 }
