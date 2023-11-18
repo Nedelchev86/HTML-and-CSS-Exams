@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+
 *,
 *::before,
 *::after {
@@ -13,6 +16,11 @@ img {
     max-width: 100%;
 }
 
+body {
+    font-family: Inter, sans-serif;
+    line-height: 1.5;
+}
+
 .wrapper {
     background-image: url("./images/background.jpg");
     width: 100%;
@@ -26,6 +34,7 @@ section {
     max-width: 1630px;
     display: flex;
     gap: 40px;
+    align-items: stretch;
 }
 
 .left {
@@ -41,4 +50,78 @@ section {
 
 .background {
     background-color: #ffffff;
+}
+
+.avatar {
+    width: 240px;
+    object-fit: cover;
+    height: 240px;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+.container {
+    padding: 60px;
+    display: flex;
+    gap: 60px;
+}
+
+.fa-solid {
+    font-size: 60px;
+    color: black;
+}
+
+.info2 {
+    color: #595959;
+    font-size: 18px;
+    letter-spacing: 0.1mm;
+    padding-block: 40px;
+}
+
+.name {
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+}
+
+.right .fa-quote-left {
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+
+.right {
+    padding: 60px 40px;
+    padding-bottom: 0px;
+}
+
+.grey-line {
+    margin-top: 140px;
+    border: 1px solid #d9d9d9;
+}
+
+.info-right {
+    display: flex;
+    padding-top: 20px;
+}
+
+.image-right {
+    width: 120px;
+    object-fit: cover;
+    height: 120px;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    filter: grayscale(100%);
+}
+
+.bottom {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info3 {
+    color: #595959;
+    font-size: 18px;
+    letter-spacing: 0.1mm;
 }
