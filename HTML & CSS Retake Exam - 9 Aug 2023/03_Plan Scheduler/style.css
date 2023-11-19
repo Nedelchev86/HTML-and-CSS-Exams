@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.2;
+    background-color: #d9d9d9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    all: unset;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0px;
+}
+
+.container {
+    padding-inline: 80px 60px;
+    padding-block: 14px;
+}
+
+.header-container {
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    height: 780px;
+    background-position: bottom;
+}
+
+.buy-button {
+    all: unset;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 8px 20px;
+    margin-top: 10px;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-left: 300px;
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.header-info p {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+
+    letter-spacing: 0.1mm;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 80px;
+    padding-block: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-block: 20px;
+}
+
+.number {
+    font-size: 40px;
+    color: #ff7c4c;
+    font-weight: bold;
+}
+
+.name {
+    font-weight: 500;
+    margin-top: 28px;
+    margin-bottom: 6px;
+}
+
+.description {
+    font-size: 14px;
+    color: #595959;
+}
+
+main {
+    background-color: white;
+}
