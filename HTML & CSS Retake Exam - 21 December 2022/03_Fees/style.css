@@ -73,7 +73,7 @@ main h1 {
 }
 
 .fees {
-    max-width: 1600px;
+    max-width: 1560px;
     display: flex;
     width: 100%;
     gap: 100px;
@@ -133,4 +133,32 @@ h2 {
     text-align: center;
     color: #565656;
     font-size: 18px;
+}
+
+.footer {
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    justify-content: space-evenly;
+}
+
+.line {
+    border-right: 1px solid #ffffff;
+}
+.left-footer,
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .left-footer {
+    border-right: 1px solid #ffffff;
+} */
+
+.price {
+    font-size: 22px;
 }
