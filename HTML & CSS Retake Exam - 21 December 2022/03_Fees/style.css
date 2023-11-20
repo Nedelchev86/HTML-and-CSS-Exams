@@ -20,8 +20,15 @@ li {
     list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: Montserrat, sans-serif;
+}
 html {
     font-family: "Lato", sans-serif;
+    font-size: 14px;
 }
 header {
     margin: 10px 100px 20px;
@@ -66,12 +73,64 @@ main h1 {
 }
 
 .fees {
-    max-width: 1700px;
+    max-width: 1600px;
     display: flex;
     width: 100%;
     gap: 100px;
 }
 .fee-card {
     background-color: #ffffff;
-    flex: 1 1 30%;
+    flex: 1 1 25%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.footer {
+    height: 120px;
+    align-self: stretch;
+    margin-top: 30px;
+}
+
+.green {
+    background: rgb(4, 156, 62);
+    background: linear-gradient(90deg, rgba(4, 156, 62, 1) 0%, rgba(40, 185, 96, 1) 35%, rgba(75, 214, 128, 1) 100%);
+}
+
+.blue {
+    background: rgb(76, 107, 136);
+    background: linear-gradient(90deg, rgba(76, 107, 136, 1) 0%, rgba(87, 131, 172, 1) 35%, rgba(97, 153, 205, 1) 100%);
+}
+
+.purple {
+    background: rgb(74, 55, 165);
+    background: linear-gradient(90deg, rgba(74, 55, 165, 1) 0%, rgba(109, 92, 197, 1) 35%, rgba(140, 124, 225, 1) 100%);
+}
+
+.btn {
+    display: inline-block;
+    background-color: #9a5dc6;
+    padding: 12px 30px;
+    border-radius: 22px;
+    color: white;
+    margin-block: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+h2 {
+    color: #54546d;
+    margin-block: 30px 10px;
+}
+
+.info {
+    padding-inline: 30px;
+    text-align: center;
+    color: #565656;
+    font-size: 18px;
 }
