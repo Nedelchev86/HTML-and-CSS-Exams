@@ -85,10 +85,19 @@
     .magazine-info img {
         width: 100%;
         height: auto;
-        aspect-ratio: 16 / 4    ;
+        aspect-ratio: 16 / 4;
     }
 
     .magazine-info {
         margin-left: 0px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
     }
 }
